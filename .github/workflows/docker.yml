@@ -1,4 +1,4 @@
-name: Publish Docker image
+name: newplaneta
 
 on:
   push:
@@ -32,5 +32,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            usuarioDockerHub/imagen:latest
+            saberbecis26/imagen:latest
             
